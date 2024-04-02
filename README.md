@@ -11,3 +11,13 @@ If maven install and Java 17, you can run in code editor or in each project root
 The Eureka service (naming-server) will show all active servers on localhost:8671. For multiple  currency-exchange-service instances, I open another VS Code window
 with the currency-exchange-service and add in launch settings.json the following configuration
 		"vmArgs": "-Dserver.port=8001" and run again	
+
+
+# Eureka Example Page of services running
+![Screenshot (49)](https://github.com/Step-henC/spring-cloud-currency/assets/98792412/4a6d07fb-e3a0-48e0-bd71-7401dd18372e)
+
+# Diagram of Data flow
+![spring-cloud-diagram](https://github.com/Step-henC/spring-cloud-currency/assets/98792412/324088f3-6485-4327-9dcf-5a2f5059a96e)
+
+
+
